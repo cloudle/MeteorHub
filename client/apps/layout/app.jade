@@ -1,0 +1,14 @@
+template(name="appLayout")
+  .application
+    //+navigation
+    #container.app-layout
+      .dual-wrapper: .dual-detail.app-layout-detail
+
+        .inner-wrapper: .inner-detail
+          span main
+          +Template.dynamic(template=content)
+        .inner-addon
+          span listing
+
+      .dual-addon
+        span menu
