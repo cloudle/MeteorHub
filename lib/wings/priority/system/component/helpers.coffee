@@ -32,5 +32,5 @@ Module 'Wings.Component',
   initializeApp: -> @arrangeLayout()
 
   arrangeLayout: ->
-    newHeight = $(window).height()# - 50
+    newHeight = $(window).height()
     $("#container").css('height', newHeight)
