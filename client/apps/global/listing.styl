@@ -11,8 +11,19 @@
     list-style none
 
     li
+      position relative
       a
         color #ffffff; font-size 13px
         display block; padding 15px 0 15px 20px
         .title
           font-size 14px; font-weight bolder
+
+        &:before
+          absolute top -1px right 30px
+          content ' '; height 100%; width 3px
+          background-color #dddddd
+
+      &:first-child a:before
+        top auto; bottom -1px; height 50%
+      &:last-child a:before
+        height 50%
