@@ -340,3 +340,5 @@
 .icon-appbar-truck { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe947;&nbsp;'); }
 .icon-appbar-stock-up { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe948;&nbsp;'); }
 .icon-appbar-money { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe949;&nbsp;'); }
+.icon-appbar-control-play { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94a;&nbsp;'); }
+.icon-appbar-control-play-live { *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe94b;&nbsp;'); }

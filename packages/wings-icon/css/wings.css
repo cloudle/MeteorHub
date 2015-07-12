@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'wings';
-  src: url('../font/wings.eot?61739180');
-  src: url('../font/wings.eot?61739180#iefix') format('embedded-opentype'),
-       url('../font/wings.woff?61739180') format('woff'),
-       url('../font/wings.ttf?61739180') format('truetype'),
-       url('../font/wings.svg?61739180#wings') format('svg');
+  src: url('../font/wings.eot?33200122');
+  src: url('../font/wings.eot?33200122#iefix') format('embedded-opentype'),
+       url('../font/wings.woff?33200122') format('woff'),
+       url('../font/wings.ttf?33200122') format('truetype'),
+       url('../font/wings.svg?33200122#wings') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -14,7 +14,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'wings';
-    src: url('../font/wings.svg?61739180#wings') format('svg');
+    src: url('../font/wings.svg?33200122#wings') format('svg');
   }
 }
 */
@@ -384,3 +384,5 @@
 .icon-appbar-truck:before { content: '\e947'; } /* '' */
 .icon-appbar-stock-up:before { content: '\e948'; } /* '' */
 .icon-appbar-money:before { content: '\e949'; } /* '' */
+.icon-appbar-control-play:before { content: '\e94a'; } /* '' */
+.icon-appbar-control-play-live:before { content: '\e94b'; } /* '' */

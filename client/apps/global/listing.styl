@@ -13,17 +13,37 @@
     li
       position relative
       a
-        color #ffffff; font-size 13px
-        display block; padding 15px 0 15px 20px
+        color #CFCECE; font-size 13px
+        display block; padding 12px 0 12px 20px
+        border-bottom solid 1px #404144
+
         .title
           font-size 14px; font-weight bolder
 
         &:before
           absolute top -1px right 30px
           content ' '; height 100%; width 3px
-          background-color #dddddd
+          background-color #3d3d3d
 
-      &:first-child a:before
-        top auto; bottom -1px; height 50%
+        .status
+          absolute top 19px right 18px
+          width 21px; height @width; line-height @width
+          text-align center; color #B3B3B3; font-size 16px
+          border solid 3px #3d3d3d
+          border-radius 50%
+          background-color #5c5c5c
+          wings-icon('\e94a')
+
+      &:first-child
+        a
+          border-top solid 1px #404144
+        a:before
+          top auto; bottom -1px; height 50%
+
       &:last-child a:before
         height 50%
+
+      &.active
+        a { background-color: #464954; color: #ffffff }
+        .status
+          background-color #C8C4C4; color #565656
