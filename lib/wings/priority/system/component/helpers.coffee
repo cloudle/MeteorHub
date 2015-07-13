@@ -1,4 +1,5 @@
 mappingExceptions = ['ui', 'rendered', 'helpers']
+youtubeSizeRatio = 0.5625
 
 Module 'Wings.Component',
   invokeIfNecessary: (method, context) -> method.apply(context, arguments) if method
@@ -34,3 +35,9 @@ Module 'Wings.Component',
   arrangeLayout: ->
     newHeight = $(window).height()
     $("#container").css('height', newHeight)
+    if $videoContainer = $(".video-container")
+      videoContainerWidth = $videoContainer.outerWidth()
+      videoContainerHeight = videoContainerWidth * youtubeSizeRatio
+      $("#episodeFrame").width(videoContainerWidth)
+      $("#episodeFrame").height(videoContainerHeight)
+
